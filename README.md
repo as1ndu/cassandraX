@@ -7,9 +7,9 @@ A Decentralized Options Exchange on Starknet
 - Options are cash settled and cash secured.
 - USDC used for cash settle ment
 
-USDC Sepolia contract address - [0x0512feac6339ff7889822cb5aa2a86c848e9d392bb0e3e237c008674feed8343](https://sepolia.voyager.online/contract/0x0512feac6339ff7889822cb5aa2a86c848e9d392bb0e3e237c008674feed8343)
+USDC Sepolia contract address - [0x0512...ed8343](https://sepolia.voyager.online/contract/0x0512feac6339ff7889822cb5aa2a86c848e9d392bb0e3e237c008674feed8343)
 
-Get Sepolia USDC here  [Circle USDC Faucet](https://faucet.circle.com/)
+Get Sepolia USDC here - [Circle USDC Faucet](https://faucet.circle.com/)
 
 ## Smart contracts
 
@@ -38,6 +38,8 @@ npm i
 ```bash
 npm run dev
 ```
+
+It should be running localy on  `http://localhost:5173/`
 
 ### Demos
 
