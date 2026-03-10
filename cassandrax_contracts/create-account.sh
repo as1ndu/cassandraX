@@ -1,0 +1,1 @@
+sncast account create --network=sepolia --name=dev

@@ -1,0 +1,6 @@
+Account Name: dev
+Class Hash:  0x2321f46877a287d168893fa52056918fa6a6a01ae9af957ceaa9a56a80083d
+
+Contract Address: 0x07644f9a2f6b3c3a808b228517cbbcf9f1876c3f24ff1f685e6663674d853471
+
+account_address: 0x0006de8cdc843074f1b11abaa2b535f91dde01acbe6d4cf4f33f8d6856d630cb,
