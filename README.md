@@ -26,7 +26,7 @@ See deployed contract on Sepolia - [0x061614391f4da506daf33f7ac70324570f109c937a
 
 ## Front End
 
-The front end code lives in, `cassandra-front-end`
+The front end code lives in, `cassandra-front-end`;
 
 To run the front end
 
