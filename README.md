@@ -5,11 +5,12 @@ A Decentralized Options Exchange on Starknet
 - A Bitcoin Options Exchange on Starknet.
 - Buy & Write (create) Bitcoin Options.
 - Options are cash settled and cash secured.
-- USDC used for cash settle ment
+- USDC used for cash settlement.
 
-USDC Sepolia contract address - [0x0512...ed8343](https://sepolia.voyager.online/contract/0x0512feac6339ff7889822cb5aa2a86c848e9d392bb0e3e237c008674feed8343)
+## USDC resources
 
-Get Sepolia USDC here - [Circle USDC Faucet](https://faucet.circle.com/)
+- USDC Sepolia contract address - [0x0512...ed8343](https://sepolia.voyager.online/contract/0x0512feac6339ff7889822cb5aa2a86c848e9d392bb0e3e237c008674feed8343)
+- Get Sepolia USDC here - [Circle USDC Faucet](https://faucet.circle.com/)
 
 ## Smart contracts
 
