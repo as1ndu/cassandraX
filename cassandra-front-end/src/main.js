@@ -375,11 +375,14 @@ async function update_available_options(){
 
     options_table.innerHTML = rendered_html_table;
 
+    await buy_option_link_events()
+
     return available_options_list
 
 }
+
 await update_available_options()
-//setInterval(update_available_options, 5000)
+// setInterval(update_available_options, 5000)
 
 async function update_unsettled_options_contracts() {
     const value = await list_all_contracts()
@@ -440,6 +443,7 @@ async function update_unsettled_options_contracts() {
 
       unsettled_options_list_container.innerHTML = rendered_html_list;
 
+      // .insertAdjacentHTML('beforeend', `<li>New Item</li>`)
 }
 
 await update_unsettled_options_contracts()
@@ -448,21 +452,29 @@ await update_unsettled_options_contracts()
 click events
 */
 // buy option links
-const option_buy_links = document.querySelectorAll('.option-buy-link');
 
-option_buy_links.forEach(option_buy_links => {
-    option_buy_links.addEventListener('click', async function(event) {
-        event.preventDefault();
+async function buy_option_link_events() {
+  const option_buy_links = document.querySelectorAll('.option-buy-link');
 
-        // 'this' refers to the element that was clicked
-        const option_txn_id = this.dataset.id;
+  option_buy_links.forEach(option_buy_links => {
+      option_buy_links.addEventListener('click', async function(event) {
+          event.preventDefault();
 
-        console.log('option_txn_id', option_txn_id)
+          // 'this' refers to the element that was clicked
+          const option_txn_id = this.dataset.id;
 
-        await buy_option_contract(option_txn_id)
+          console.log('option_txn_id', option_txn_id)
 
-    });
-});
+          await buy_option_contract(option_txn_id)
+
+      });
+  });
+}
+
+await buy_option_link_events()
+
+
+
 
 //  write option button
 const write_option_form = document.getElementById('options-details-form');
