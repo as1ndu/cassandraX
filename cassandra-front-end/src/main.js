@@ -160,7 +160,7 @@ async function deposit_usdc(amount) {
 async function withdraw_usdc(amount) {
   // amount * (10**6)
   const _txn_hash = await cassandra_contract_invoke_instance.withdraw_usdc(amount * (10**6))
-  const result = await cassandraProvider.waitForTransaction(_txn_hash.transaction_hash);
+  const result    = await cassandraProvider.waitForTransaction(_txn_hash.transaction_hash);
 
   if (result.isSuccess) {
     // update account balance 
