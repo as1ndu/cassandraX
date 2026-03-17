@@ -4,7 +4,7 @@ import { WalletAccount, RpcProvider, Contract, shortString, num } from 'starknet
 import Mustache from 'mustache';
 
 
-const node_instance = 'https://starknet-sepolia.g.alchemy.com/starknet/version/rpc/v0_9/lYYa1PYb1ZXoZGRsqtlDX' //https://api.zan.top/public/starknet-sepolia/rpc/v0_10';
+const node_instance              = 'https://api.zan.top/public/starknet-sepolia/rpc/v0_10' //https://api.zan.top/public/starknet-sepolia/rpc/v0_10';
 const cassandra_contract_address = '0x061614391f4da506daf33f7ac70324570f109c937a909608f3c9b640bda62b29'
 const usdc_contract_address      = '0x0512feac6339ff7889822cb5aa2a86c848e9d392bb0e3e237c008674feed8343'
 
