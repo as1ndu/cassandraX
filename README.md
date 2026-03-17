@@ -22,7 +22,7 @@ Or just Deploy contract from Class Hash
 sncast --account dev deploy --class-hash 0x019e865dcf3d2b1b736133e0913b42830acad474fa07bf1555322d603250653e  --network sepolia
 ```
 
-See deployed contract on Sepolia - [0x061614391f4da506daf33f7ac70324570f109c937a909608f3c9b640bda62b29](https://sepolia.voyager.online/contract/0x061614391f4da506daf33f7ac70324570f109c937a909608f3c9b640bda62b29)
+See deployed contract on Sepolia - [0x056d193fc54a247e26752a208dd7e6cb9c66507ac1f5f72f8a97b9501e3d291f](https://sepolia.voyager.online/contract/0x056d193fc54a247e26752a208dd7e6cb9c66507ac1f5f72f8a97b9501e3d291f)
 
 ## Front End
 
